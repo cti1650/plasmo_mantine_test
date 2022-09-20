@@ -1,12 +1,11 @@
-import { MantineProvider } from "@mantine/core"
 import { Sub } from "~components/sub"
 
+import "../styles/mantineBase.css"
 import "../styles/style.css"
 
+
 function OptionsIndex() {
-  return <MantineProvider withGlobalStyles withNormalizeCSS>
-    <Sub />
-  </MantineProvider>
+  return <Sub />
 }
 
 export default OptionsIndex

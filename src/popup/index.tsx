@@ -1,12 +1,10 @@
-import { MantineProvider } from "@mantine/core"
 import { Main } from "~components/main"
 
+import "../styles/mantineBase.css"
 import "../styles/style.css"
 
 function IndexPopup() {
-  return <MantineProvider withGlobalStyles withNormalizeCSS>
-    <Main />
-  </MantineProvider>
+  return <Main />
 }
 
 export default IndexPopup
